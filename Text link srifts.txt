@@ -1,0 +1,19 @@
+DM Serif Display =>DM
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+Public Sans => PB
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+
+Здесь все ссылки шрифтов 
+
+h1 large DM
+h1 small DM
+h2 DM
+h3 big DM
+h3 small PB
+h4 DM
+
+body copy 1 PB // скорее всего будет <p></p>
