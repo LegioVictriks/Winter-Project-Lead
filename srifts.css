@@ -1,0 +1,51 @@
+/* DM Serif Display */
+/* font-family: 'Barlow', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Fraunces', serif; */
+
+/* Public Sans */
+/* font-family: 'Barlow', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Fraunces', serif;
+font-family: 'Public Sans', sans-serif; */
+
+.largeh1{
+    font-family: 'DM Serif Display', serif;
+
+    font-size: 72px;
+   
+}
+.smallh1{
+
+font-family: 'DM Serif Display', serif;
+
+font-size: 56px;
+}
+.deffh2{
+
+font-family: 'DM Serif Display', serif;
+
+font-size: 48;
+}
+.deffh4{
+
+font-family: 'DM Serif Display', serif;
+
+font-size: 24;
+}
+.bigh3{
+
+font-family: 'DM Serif Display', serif;
+
+font-size: 32px;
+}
+.smallh3{
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+.pfont{
+
+font-family: 'Public Sans', sans-serif;
+font-size: 15px;
+}
