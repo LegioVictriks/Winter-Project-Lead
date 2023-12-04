@@ -14,6 +14,7 @@ body {
     border: none;
     color: white;
     width: 173px;
+    font-size: 15px;
 }
 
 #navtop {
@@ -49,21 +50,21 @@ body {
     height: 133px;
     flex-shrink: 0;
     white-space: pre-line;
-margin-left: 10%;
+    margin-left: 10%;
+    font-size: 15px;
 }
 
 .register {
     background-color: transparent;
     border: 0px solid;
-    color: #CCC;
+    color: #36536B;
     border-bottom: 1px solid;
-width: 445px;
+    width: 445px;
     height: 42px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
- 
-    /* width: 320px; */
+    font-size: 15px;
 }
 
 .join {
@@ -75,7 +76,7 @@ width: 445px;
     line-height: 32px;
     letter-spacing: -0.185px;
     opacity: 0.75;
-white-space: pre-line;
+    white-space: pre-line;
 }
 
 .buttoncheck {
@@ -88,8 +89,8 @@ white-space: pre-line;
     /* 166.667% */
     letter-spacing: -0.115px;
     bottom: 200px;
-padding-top: 15px;
-padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #check1 {
@@ -115,7 +116,7 @@ padding-bottom: 15px;
     border: 1px solid #36536B;
     border-radius: 24px;
     width: 170px;
-   margin-top: 15px;
+    margin-top: 15px;
 }
 
 .ready {
@@ -228,6 +229,7 @@ a {
     flex-shrink: 0;
     border: none;
     color: white;
+    font-size: 15px;
 }
 
 .Demo {
@@ -264,7 +266,9 @@ a {
     line-height: 25px;
     /* 166.667% */
     letter-spacing: -0.115px;
+    /* white-space: pre-line; */
 }
+
 /* @media only screen and (max-width: 1440px) {
     body {
       background-color: lightblue;
@@ -279,13 +283,42 @@ a {
     body {
       background-color: green;
     } */
-  }
-  .register1 {
+
+.register1 {
     display: flex;
     flex-direction: column;
-  }
-  footer {
+
+}
+
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+}
+
+input[type="checkbox"]:checked {
+    background-color: #BA4270;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    appearance: none;
+    background-color: #36536B;
+}
+
+input[type="checkbox"]:after {
+    content: ' ';
+    position: relative;
+    left: 40%;
+    top: 20%;
+    width: 15%;
+    height: 40%;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(50deg);
+    display: none;
+}
+
+input[type="checkbox"]:checked:after {
+    display: block;
+}
