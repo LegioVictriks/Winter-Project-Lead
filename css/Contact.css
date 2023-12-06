@@ -2,16 +2,16 @@
     border: 2px red solid;
 }
 body {
-    background: #EDF3F8;
+    background:  rgb(251, 252, 254);
 }
 
 
 
 #navtop {
-    background-color: white;
+
     display: flex;
     justify-content: space-around;
-    background: #EDF3F8;
+
 }
 
 #navtop a {
@@ -32,8 +32,13 @@ body {
 }
 
 .submit {
+    white-space: pre-line;
     color: #36536B;
     height: 133px; 
+   margin: 0 14%;
+   display: flex;
+  align-items: center;
+ 
 }
 
 .register {
@@ -85,7 +90,7 @@ body {
     font-weight: 700;
     line-height: normal;
     border-radius: 24px;
-    background: #FBFCFE;
+
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
    width:  445px;
     height: 48px;
@@ -104,12 +109,8 @@ body {
 }
 
 a {
-    color: #FBFCFE;
-    font-family: Public Sans;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+
+
 }
 
 .images1 {
