@@ -74,9 +74,6 @@ body {
     width: 24px;
     height: 24px;
 }
-.rez{
-
-}
 .buttoncheck{
     display: flex;
     align-items: center;
@@ -193,5 +190,16 @@ justify-content: space-around;
 .button1{
     cursor: pointer;
     color: #fff;
+
+}
+    /* PC */
+@media only screen and (min-width: 1025px) {
+  }
+    /* TABLE */
+    @media only screen and (max-width: 1024px) {
+
+}
+    /* MOBILE */
+ @media only screen and (max-width: 480px) {
 
 }
