@@ -2,49 +2,48 @@
     border: 2px red solid;
 }
 body {
-    background:  rgb(251, 252, 254);
+    background: rgb(251, 252, 254);
+    color:#36536B;
 }
 
-
-
 #navtop {
-
     display: flex;
     justify-content: space-around;
 
 }
-
-#navtop a {
-
-}
-
 .button {
     border-radius: 24px;
-    background: #BA4270;
+    background-color: rgb(186, 66, 112);
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-    
+    width: 173px;
     height: 48px;
-    flex-shrink: 0;
-    border: none;
-    color: white;
-    
-    
-}
 
+ 
+}
+.button1 {
+    position: absolute;
+      right: 0;
+  width: 152px;
+    border-radius: 24px;
+    background-color: rgb(186, 66, 112);
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border: none;
+    height: 48px;
+
+}
 .submit {
     white-space: pre-line;
-    color: #36536B;
+    color:#36536B;
     height: 133px; 
-   margin: 0 14%;
+   margin: 0 12%;
    display: flex;
   align-items: center;
  
 }
-
 .register {
     background-color: transparent;
     border: 0px solid;
-    color: #CCC;
+ 
     border-bottom: 1px solid; 
     height: 42px;
     display: flex;
@@ -52,7 +51,18 @@ body {
   
    
 }
-
+.register1{
+    display: flex;
+    flex-direction: column;
+}
+.buttonsubmit{
+    margin-right: auto;
+    width: 152px;
+    height: 48px;
+    border-radius: 24px;
+    margin-top: 10px;
+    background-color: #fbfcfe;
+}
 .join {
     color: #36536B;
     font-size: 24px;
@@ -60,57 +70,39 @@ body {
     line-height: 32px;
   
 }
-
-.buttoncheck {
-
-}
-
 #check1 {
     width: 24px;
     height: 24px;
 }
-
-.buttonsubmit {
-    
-
-  
+.rez{
 
 }
+.buttoncheck{
+    display: flex;
+    align-items: center;
+    gap: 26px;
 
-.ready {
-    
 }
-
+input[type="checkbox"] {
+    border: 2px solid red;
+  }
+input[type="checkbox"]:checked {
+    background-color: red;
+    color: red;
+  }
 .eeadress2 {
     flex: 1;
-    color: #36536B;
-    font-family: Public Sans;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+   
     border-radius: 24px;
-
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
    width:  445px;
     height: 48px;
-    flex-shrink: 0;
-
     bottom: 245px;
-   
     border: none;
 }
-
 .navtop1 {
     
     height: 38px;
-
-
-}
-
-a {
-
-
 }
 
 .images1 {
@@ -121,8 +113,6 @@ a {
     grid-template-areas:
         "tesla microsoft hp "
         "oracle google nvidia"
-
-
 }
 
 .joinall {
@@ -139,7 +129,9 @@ a {
 
     
 }
-
+.svg-class {
+   stroke:#fbfcfe;
+}
 .navbarFlex {
     display: flex;
     align-items: center;
@@ -161,19 +153,7 @@ a {
     margin: 10px;
 }
 
-.button1 {
-    position: absolute;
-      right: 0;
-  width: 152px;
-    border-radius: 24px;
-    background: #BA4270;
-    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-    
-    height: 48px;
-    flex-shrink: 0;
-    border: none;
-    color: white;
-}
+
 .Demo {
     display: flex;
     align-items: center;
@@ -193,6 +173,25 @@ justify-content: space-around;
     align-items: center;
     position: relative;
   }
-  footer{
-
+  .navbarFlex a{
+    color: #36536B;
+    text-decoration: none;
   }
+  #navtop1 .navbarFlex a{
+    color: #fbfcfe;  }
+
+/* button */
+.button{
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+
+    border: none;
+
+
+}
+.button1{
+    cursor: pointer;
+    color: #fff;
+
+}
