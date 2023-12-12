@@ -18,10 +18,12 @@ body {
 }
 
 #navtop {
-
+    display: flex;
+ 
     transition: top 0.3s;
     flex-shrink: 0;
-
+    position: relative;
+    justify-content: space-around;
 
 }
 
@@ -40,16 +42,16 @@ body {
 
 .submit {
     color: #36536B;
-    font-size: 56px;
+   
     font-style: normal;
     font-weight: 400;
     line-height: 56px;
     letter-spacing: -0.431px;
     height: 133px;
     flex-shrink: 0;
-
+    white-space: pre-line;
     margin-left: 10%;
-    font-size: 15px;
+   
 }
 
 .register {
@@ -90,13 +92,15 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 #check1 {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
-
+    opacity: 0.25;
 
 }
+
 .buttonsubmit {
     height: 48px;
     flex-shrink: 0;
@@ -117,8 +121,7 @@ body {
 
 .ready {
     color: #36536B;
-    font-family: DM Serif Display;
-    font-size: 48px;
+   
     font-style: normal;
     font-weight: 400;
     line-height: 56px;
@@ -127,7 +130,24 @@ body {
     bottom: 160px;
 }
 
+.eeadress2 {
+    flex: 1;
+    color: #36536B;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 24px;
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    width: 445px;
+    height: 48px;
+    flex-shrink: 0;
+    bottom: 245px;
+    border: none;
 
+}
 
 .navtop1 {
     height: 38px;
@@ -168,12 +188,9 @@ a {
 
 #navtop1 {
     display: flex;
-    justify-content: space-between;
+   
     transition: top 0.3s;
-    /* width: 1110px; */
-    /* height: 48px; */
     flex-shrink: 0;
-    /* left: 165px; */
     justify-content: space-around;
     background: #1B262F;
     height: 100px;
@@ -185,7 +202,15 @@ a {
     align-items: center;
 
 }
-
+.navbarFlex1{    
+    display: flex;
+    align-items: center;
+}
+.navbarFlex1 a {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
 .navbarFlex a {
     padding-left: 15px;
     padding-right: 15px;
@@ -195,18 +220,31 @@ a {
 .foot3 {
     align-items: center;
     display: flex;
-    gap: 15px;
 }
 
-
+.button1 {
+    position: absolute;
+    right: 0;
+    width: 152px;
+    border-radius: 24px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
 
 .Demo {
     display: flex;
     align-items: center;
 }
 
-.divgrid{
-    padding: 15px;
+.divgrid {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
 }
 
 .start {
@@ -234,34 +272,7 @@ a {
     letter-spacing: -0.115px;
     /* white-space: pre-line; */
 }
-.eeadress2{
-    flex: 1;
-        color: #36536B;
-        font-family: Public Sans;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        border-radius: 24px;
-        background: #FBFCFE;
-        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-        width: 445px;
-        height: 48px;
-        flex-shrink: 0;
-        bottom: 245px;
-        border: none;
-}
-.button1{
-    width: 152px;
-    border-radius: 24px;
-    background: #BA4270;
-    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-    height: 48px;
-    flex-shrink: 0;
-    border: none;
-    color: white;
-    font-size: 15px;
-}
+
 /* @media only screen and (max-width: 1440px) {
     body {
       background-color: lightblue;
@@ -301,21 +312,16 @@ footer {
     width: 395px;
 flex-shrink: 0;
 }
-
 input[type="checkbox"]:checked {
-    background-color: rgb(186, 66, 112);
-    opacity: 1;
+    background-color: #BA4270;
 }
+
 input[type="checkbox"] {
     cursor: pointer;
     appearance: none;
     background-color: #36536B;
-    opacity: 0.25;
 }
-input[type="checkbox"]:disabled{
-    background-color:#36536B;
-    opacity: 0.05;
-}
+
 input[type="checkbox"]:after {
     content: ' ';
     position: relative;
@@ -327,102 +333,45 @@ input[type="checkbox"]:after {
     border-width: 0 2px 2px 0;
     transform: rotate(50deg);
     display: none;
-    
 }
 
 input[type="checkbox"]:checked:after {
     display: block;
 }
-
-@media only screen and (min-width: 1025px){
-  
-    
-    .button1 {
-        position: absolute;
-        right: 0;
-     
-    }
-.submit{
-    white-space: pre-line;
-
-}
-#navtop{
-    display: flex;
-    justify-content: space-evenly;
-}
-.divgrid {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 35px;
-}
-}
 @media only screen and (min-width: 720px) and (max-width: 1024px) {
-
-    .button1 {
-        position: absolute;
-        right: 0;
-       
-    }
-    #navtop{
-        display: flex;
-        justify-content: space-evenly;
-    }
     .divgrid{
         display: flex;
+        justify-content: flex-start;
+        margin-bottom: 35px;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-direction: column;
+    }
+    .start {
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (min-device-width: 1px) and (max-device-width: 767px) {
+    .divgrid {
+        display: flex;
+        justify-content: space-around;
         margin-bottom: 35px;
         flex-direction: column;
-        align-items: center;
-
     }
-    .checkboxtext{
-        white-space: pre-line;
-    }
-    .join{
-        text-align: center;
-    }
-    .start {
+    .images1 {
         display: flex;
-        margin-bottom: 15%;
+        grid-gap: 2rem;
+        /* font-size: 1rem; */
+        grid-template-areas:
+            "tesla microsoft hp "
+            "oracle google nvidia";
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
-        flex-direction: column;
+        /* flex-direction: column-reverse;*/
     }
-    .submit{
-        text-align: center;
-    }
-
-}
-@media only screen and (max-width:480px ){
-.submit{
-  
-    text-align: center;
-}  
-.nonclass{
-    margin-top: 10%;
-      margin-bottom: 35%;  
-      text-align: center;
-    }
-    .register div input[type="text"],textarea{
-        margin: 10px;
-    }
-    .divgrid{
-
-      display: flex;  
-      flex-direction: column;
-    }
-    .join{
-        text-align: center;
-    }
-    .start {
-        display: flex;
-        margin-bottom: 15%;
-        align-items: center;
-        flex-direction: column;
-    }
-    .submit{
-        text-align: center;
-    }
-   .eeadress{
-    flex-direction: column;
-    gap: 25px;
-   }
 }

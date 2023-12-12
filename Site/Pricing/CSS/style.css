@@ -1,0 +1,402 @@
+body{
+    background-color: #edf3f8 ;
+}
+/* навигационная панель верхняя  */
+#navtop {
+    display: flex;
+    justify-content: space-between;
+    transition: top 0.3s;
+    flex-shrink: 0;
+    position: relative;
+    justify-content: space-around;
+
+}
+
+#navtop a {
+    float: left;
+    display: block;
+    color: #36536B;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    background: #EDF3F8;
+}
+
+.navbarFlex {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbarFlex a {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.button {
+    border-radius: 24px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    width: 173px;
+    font-size: 15px;
+}
+.Demo_pfont {
+    display: flex;
+    align-items: center;
+}
+/* ------------------------------------------- */
+/* часть с ценами на планы */
+
+.Basic,.Premium,.Free{
+    width: 350px;
+
+flex-shrink: 0;
+}
+.hph{
+    /* width: 546px; */
+    color: #36536B;
+font-family: DM Serif Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px; /* 100% */
+letter-spacing: -0.431px;
+
+}
+h2{
+    color: #BA4270;
+font-family: DM Serif Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 125% */
+letter-spacing: -0.246px;
+}
+p{
+    color: #6C8294;
+font-family: Public Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 186.667% */
+}
+b{
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 128.571% */
+    letter-spacing: -0.431px;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: #c5d0d9; /* Цвет линии */
+    color:#c5d0d9; /* Цвет линии для IE6-7 */
+    width: 350px;
+    height: 1px;/* Толщина линии */
+    margin: 30px 0px;
+   }
+
+.plans{
+    display: flex;
+    justify-content: space-around;
+}
+.free_plan_text_a{
+    color: #36536B;
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.free_plan_text_na{
+    color: #91a2b1;
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+
+li{
+    list-style-type: none;
+}
+.button3{
+
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #1f262f;
+   text-decoration: none;
+    border: black 1px solid;
+    border-radius: 60px;
+   
+}
+
+.button3:hover{ background-color: #36536B;
+color:#fbfcfd;
+
+}
+
+
+
+/* ------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* часть для настройи строки Ready start  */
+.start {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.button1 {
+    position: absolute;
+    right: 0;
+    width: 152px;
+    border-radius: 24px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.eeadress2 {
+    flex: 1;
+    color: #36536B;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 24px;
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    width: 445px;
+    height: 48px;
+    flex-shrink: 0;
+    bottom: 245px;
+    border: none;
+
+}
+.ready {
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.369px;
+    bottom: 160px;
+}
+.eeadress {
+    display: flex;
+    align-items: center;
+    position: relative;
+    word-spacing: 1rem;
+}
+/* ------------------------------------------- */
+
+
+
+/* навигационная панель нижняя  */
+#navtop1
+{
+	display: flex;
+    justify-content: space-between;
+    transition: top 0.3s;
+    /* width: 1110px; */
+    /* height: 48px; */
+    flex-shrink: 0;
+    /* left: 165px; */
+    justify-content: space-around;
+    background: #1B262F;
+    height: 100px;
+    top: 270px;
+   
+}
+.navbarFlex {
+    display: flex;
+    align-items: center;
+}
+.navbarFlex a {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.foot3 {
+    align-items: center;
+    display: flex;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+/* ------------------------------------------- */
+@media only screen and (min-width: 1299) and (max-device-width: 2221px){
+
+}
+@media only screen and (max-width: 1024px)
+{
+    .Basic,.Premium,.Free
+    {
+        width: 223px;
+        height: 615px;
+        flex-shrink: 0;
+    } 
+    hr 
+    {
+        width: 223px;
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.25;
+       background: #36536B;
+    }
+    .start 
+    {
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    b {
+        display: flex;
+        justify-content: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
+@media only screen and (min-device-width: 1px) and (max-device-width: 767px) {
+  
+    hr 
+    {
+        width: 223px;
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.25;
+       background: #36536B;
+    }
+    .start 
+    {
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .plans{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+
+  
+.button1{   
+     width: 327px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #BA4270;
+    color: #FBFCFE;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+    display: block;
+    margin-top: 15px;
+}
+.eeadress2 {
+    width: 327px;
+}
+
+
+.eeadress {
+    display: block;
+    position: relative;
+    width: 327px;
+
+}
+#navtop1 {
+    padding: 30px 40px;
+    margin-top: 100px;
+}
+.navbarFlex {
+
+}
+.foot3 {
+
+}
+b {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+ .hph{text-align: center;}   
+}
+
